@@ -8,7 +8,7 @@ class Character extends React.Component {
         <div className="card-body">
           <h3 className="card-title"> {this.props.name}</h3>
           <p className="card-text"> {this.props.title}</p>
-          <button onChange={handleFavoriteClick}></button>
+          <button onClick={this.props.handleFavoriteClick}>Add Fav</button>
         </div>
       </div>
     );
